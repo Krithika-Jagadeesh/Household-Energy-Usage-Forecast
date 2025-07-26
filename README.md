@@ -18,21 +18,24 @@ To design a machine learning model that accurately predicts household energy usa
 
 **🔍 Approach & Methodology**
 
-*1. 📊 Data Understanding & EDA*
+**1. 📊 Data Understanding & EDA**
 - Load the Individual Household Electric Power Consumption dataset.
 - Analyze missing values, distributions, seasonality, and correlations.
 - Visualize hourly/daily consumption patterns with line plots, histograms, and heatmaps.
-2. 🧹 Data Preprocessing
+  
+**2. 🧹 Data Preprocessing**
 - Missing Values: Impute or drop as needed.
 - Date Parsing: Extract hour, day, month, weekday, and is_weekend.
 - Feature Scaling: Use MinMaxScaler or StandardScaler for uniformity.
 - Time-Series Parsing: Convert to datetime index for rolling calculations.
-3. 🏗️ Feature Engineering
+  
+**3. 🏗️ Feature Engineering**
 - Rolling Statistics: Moving averages (e.g., 3-hour, 24-hour).
 - Peak Hour Flags: Tag hours of elevated consumption.
 - Lag Features: For autoregressive modeling.
 - Weather Integration (if available): Add temperature, humidity as regressors.
-4. 🤖 Model Development
+  
+**4. 🤖 Model Development**
 - Train/Test Split: Use chronological split to prevent data leakage.
 - Models Used:
 - Linear Regression (baseline)
@@ -40,7 +43,8 @@ To design a machine learning model that accurately predicts household energy usa
 - XGBoost or LightGBM
 - Neural Network (Keras or PyTorch)
 - Hyperparameter Tuning: Use GridSearchCV or Optuna for fine-tuning.
-5. 📈 Evaluation Metrics
+  
+**5. 📈 Evaluation Metrics**
 | Metric | Purpose | 
 | RMSE | Penalizes large errors | 
 | MAE | Measures average absolute deviation | 
@@ -49,13 +53,13 @@ To design a machine learning model that accurately predicts household energy usa
 
 
 
-📊 Key Visualizations
+**📊 Key Visualizations**
 - Power Consumption vs Time → Line plot (daily/hourly trends)
 - Seasonal Pattern Detection → Monthly/weekly box plots
 - Feature Importance → Bar chart using model’s output
 - Prediction vs Actuals → Overlayed time-series graphs
 
-🗂️ Deliverables
+**🗂️ Deliverables**
 - Source Code:
 - Python Notebook (Jupyter or .py) with comments.
 - GitHub Repository organized with proper version control.

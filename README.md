@@ -70,3 +70,7 @@ To design a machine learning model that accurately predicts household energy usa
 - Model comparison and rationale
 - Visualizations:
 - Embedded within the report or exported as images for dashboard use.
+
+**Conclusion**:
+Here the best performing model is XGBoosting regression model which has r2 score with 0.999 and lowest MAE and RMSE score (0.01 and 0.02 respectively) amongst linear regression, random forest regression, gradient boosting regression and neural networks regression.
+

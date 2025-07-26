@@ -1,18 +1,23 @@
 # Household-Energy-Usage-Forecast
 
-##📍 Objective
+**📍 Objective**
+
 To design a machine learning model that accurately predicts household energy usage using historical data, enabling users to optimize consumption and energy providers to plan more efficiently. The solution aims to support demand forecasting, anomaly detection, and environmental sustainability.
 
-##🏠 Domain: Energy and Utilities
 
-###🎯 Business Use Cases
+**🏠 Domain: Energy and Utilities**
+
+**🎯 Business Use Cases**
+
 - Household Energy Management: Inform users about consumption patterns to encourage bill savings and sustainable habits.
 - Provider Demand Forecasting: Anticipate regional energy demands for efficient grid distribution and pricing.
 - Anomaly Detection: Flag abnormal usage spikes signaling possible leaks, device failures, or unauthorized usage.
 - Smart Grid Integration: Feed insights into smart systems for real-time optimization.
 - Environmental Impact: Minimize wastage and contribute to carbon footprint reduction.
 
-###🔍 Approach & Methodology
+
+**🔍 Approach & Methodology**
+
 *1. 📊 Data Understanding & EDA*
 - Load the Individual Household Electric Power Consumption dataset.
 - Analyze missing values, distributions, seasonality, and correlations.
